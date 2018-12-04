@@ -49,5 +49,14 @@ class Board
     @cells[pos] = player.token
   end
 
+   # binding.pry
+    self.position(pos) == "X" || self.position(pos) == "O"
+   # binding.pry
+  end
   
+  def valid_move?(user_move)
+     binding.pry
+     user_move (1..9) 
+  end
+
 end
