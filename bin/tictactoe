@@ -1,3 +1,11 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+
+puts "Welcome to Tic Tac Toe!"
+puts "How many human players will be playing? (0-2)"
+num_of_players = gets.strip
+if num_of_players > 0 
+  puts "Who should go first?"
+  
